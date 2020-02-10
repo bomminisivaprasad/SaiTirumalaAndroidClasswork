@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/taskIcon_layout"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_marginLeft="10dip"
+        android:padding="16dp"
+        android:background="@drawable/circle_background">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/taskIcon"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:src="@drawable/places_ic_clear" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/taskName"
+        android:layout_below="@id/taskIcon_layout"
+        android:layout_width="90dip"
+        android:layout_height="20dip"
+        android:text="Task1"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

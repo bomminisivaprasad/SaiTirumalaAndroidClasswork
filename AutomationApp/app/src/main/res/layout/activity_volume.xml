@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="20dip"
+        android:textSize="15dip"
+        android:text="Music Volume:"/>
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/music"
+        android:layout_width="match_parent"
+        android:theme="@style/switchTheme"
+        android:layout_height="wrap_content"
+        android:progress="1"/>
+
+    <TextView
+        android:id="@+id/music_value"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="20dip"
+        android:textSize="15dip"
+        android:text="Value:1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="20dip"
+        android:textSize="15dip"
+        android:text="Alarm Volume:"/>
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/alarm"
+        android:layout_width="match_parent"
+        android:theme="@style/switchTheme"
+        android:layout_height="wrap_content"
+        android:progress="1"/>
+
+    <TextView
+        android:id="@+id/alarm_value"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="20dip"
+        android:textSize="15dip"
+        android:text="Value:1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="20dip"
+        android:textSize="15dip"
+        android:text="Ring Volume:"/>
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/ring"
+        android:layout_width="match_parent"
+        android:theme="@style/switchTheme"
+        android:layout_height="wrap_content"
+        android:progress="1"/>
+
+    <TextView
+        android:id="@+id/ring_value"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="20dip"
+        android:textSize="15dip"
+        android:text="Value:1"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@id/goFunction"
+        android:layout_marginTop="20dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Function"/>
+</LinearLayout>

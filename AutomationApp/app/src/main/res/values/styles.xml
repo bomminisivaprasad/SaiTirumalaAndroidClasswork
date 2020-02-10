@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWarnRed</item>
+        <item name="colorPrimaryDark">@color/colorWarnRed</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/text_white</item>
+        <item name="colorControlActivated">@color/text_white</item>
+        <item name="colorControlHighlight">@color/text_white</item>
+    </style>
+
+    <style name="SignInAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/signIn</item>
+        <item name="colorPrimaryDark">@color/signIn</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/text_white</item>
+        <item name="colorControlActivated">@color/text_white</item>
+        <item name="colorControlHighlight">@color/text_white</item>
+    </style>
+
+    <style name="drawerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/text_white</item>
+        <item name="colorPrimaryDark">@color/text_white</item>
+        <item name="colorAccent">@color/text_white</item>
+        <item name="colorControlNormal">@color/text_white</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="switchTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/btn_background</item>
+        <item name="colorPrimaryDark">@color/btn_background</item>
+        <item name="colorAccent">@color/btn_background</item>
+        <item name="colorControlNormal">@color/btn_background</item>
+        <item name="colorControlActivated">@color/colorWarnRed</item>
+        <item name="colorControlHighlight">@color/colorWarnRed</item>
+    </style>
+
+    <style name="floatButtonTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/background_white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

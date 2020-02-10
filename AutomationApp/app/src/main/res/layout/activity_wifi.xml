@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/WIFI"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dip"
+            android:layout_weight="0"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:text="WIFI"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Switch
+            android:id="@+id/WIFI_switch"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-50dip"
+            android:theme="@style/switchTheme"
+            android:layout_width="45dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_marginTop="20dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textSize="15dip"
+        android:text="*Switch to turn on/off WIFI when trigger fire "/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dip"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Reverse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dip"
+            android:layout_weight="0"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:text="Reverse"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Switch
+            android:id="@+id/Reverse_switch"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-50dip"
+            android:theme="@style/switchTheme"
+            android:layout_width="45dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_marginTop="20dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textSize="15dip"
+        android:text="*Reverse feature enable you to reverse the function after the trigger is fired. For example, a same trigger can turn off the WIFI and another same trigger can turn back the WIFI. "/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/goFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:text="Go to Function"/>
+
+</LinearLayout>

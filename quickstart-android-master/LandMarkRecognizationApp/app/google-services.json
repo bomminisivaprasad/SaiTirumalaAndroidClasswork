@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "388857867978",
+    "firebase_url": "https://landmarkrecognizationapp.firebaseio.com",
+    "project_id": "landmarkrecognizationapp",
+    "storage_bucket": "landmarkrecognizationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388857867978:android:f21e7236ad46a3a61a0e33",
+        "android_client_info": {
+          "package_name": "com.example.landmarkrecognizationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388857867978-j761giauhqhoa2f094h3v6i9180ul64a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.landmarkrecognizationapp",
+            "certificate_hash": "4e25857a77f58e2fef897b8fc4e2c80ff109dfc7"
+          }
+        },
+        {
+          "client_id": "388857867978-q4m48e0qvclhp1m0ps4621pmpond25vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDerJyu0BVVogqZSox6i1sXcphmASMnL0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388857867978-q4m48e0qvclhp1m0ps4621pmpond25vq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

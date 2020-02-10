@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dip">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Trigger Text:"/>
+    <EditText
+        android:id="@+id/text"
+        android:theme="@style/switchTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="*Recommend to use special with the start and end of the text to avoid the occurence of the words used in daily life. For Example,'/*turn up volume*/'"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/goAction"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Action"/>
+</LinearLayout>

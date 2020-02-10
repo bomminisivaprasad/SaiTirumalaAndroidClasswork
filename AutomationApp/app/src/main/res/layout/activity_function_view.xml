@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dip"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/triggerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dip"
+        android:text="Trigger : "/>
+    <TextView
+        android:id="@+id/trigger"
+        android:layout_toRightOf="@+id/triggerLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:layout_alignBaseline="@id/triggerLabel"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/actionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:layout_below="@+id/triggerLabel"
+        android:layout_marginTop="20dip"
+        android:textStyle="bold"
+        android:text="Action : "/>
+    <TextView
+        android:id="@+id/action"
+        android:layout_toRightOf="@+id/actionLabel"
+        android:layout_alignBaseline="@id/actionLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:text=""/>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/actionGroup"
+        android:layout_below="@+id/actionLabel"
+        android:layout_marginTop="40dip"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_below="@+id/status"
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dip"
+            android:src="@drawable/ic_delete"/>
+
+        <ImageView
+            android:layout_below="@+id/status"
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pen"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/descLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:layout_marginTop="40dip"
+        android:layout_below="@+id/actionGroup"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:text="Description : "/>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_below="@id/descLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:text=""/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

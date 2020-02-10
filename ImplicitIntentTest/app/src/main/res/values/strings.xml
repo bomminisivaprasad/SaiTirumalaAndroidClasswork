@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImplicitIntentTest</string>
+    <string name="share_using">Hello</string>
+</resources>

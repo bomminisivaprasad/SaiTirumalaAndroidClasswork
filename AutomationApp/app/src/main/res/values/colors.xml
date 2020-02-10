@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303F9F</color>
+    <color name="signIn">#804d4f53</color>
+    <color name="drawerBackground">#99000000</color>
+    <color name="drawerText">#80FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="progress_bar_background">#90000000</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="btn_background">#33000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="colorWarnRed">#fd5c63</color>
+    <color name="colorWarnRedTransparent">#80fd5c63</color>
+    <color name="facebookBlue">#007ee5</color>
+</resources>
+

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MapSActivityWithCurrentLocation</string>
+    <string name="google_maps_key">AIzaSyDYzQJUR55zXBotoPuk5BPZurZTA_b9-0c</string>
+</resources>

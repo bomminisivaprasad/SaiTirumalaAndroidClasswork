@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dip">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please pick the type of the time"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_marginEnd="150dip"
+            android:gravity="left"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:textSize="18dip"
+                android:text="Timer : "/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/timer_button"
+            android:layout_width="150dip"
+            android:layout_height="40dip"
+            android:layout_marginTop="-30dip"
+            android:layout_gravity="right"
+            android:text="Choose Time" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timer_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="*Timer only run once from the time that the function created, but it can be reset by status bar"
+        android:textSize="13dip" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/timerGoFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="Go to Action"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="20dip"
+        android:background="@color/btn_background">
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_marginEnd="50dip"
+            android:gravity="left"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:textSize="18dip"
+                android:text="Time : "/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/dataTime_button"
+            android:layout_width="150dip"
+            android:layout_height="40dip"
+            android:layout_marginTop="-30dip"
+            android:layout_gravity="right"
+            android:text="Choose Time" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18dip" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dip"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Reverse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dip"
+            android:layout_weight="0"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:text="Repeat"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Switch
+            android:id="@+id/Repeat_switch"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-50dip"
+            android:theme="@style/switchTheme"
+            android:layout_width="45dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="*Repeat will run the action on the same time everyday"
+        android:textSize="13dip" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/DateTimeGoFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="Go to Action"/>
+</LinearLayout>

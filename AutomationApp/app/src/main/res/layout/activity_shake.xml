@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dip">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:textSize="15dip"
+        android:text="Accelerator Strength:"/>
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:theme="@style/switchTheme"
+        android:layout_height="wrap_content"
+        android:progress="12"
+        android:max="60"/>
+
+    <TextView
+        android:id="@+id/seekBarValue"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:textSize="15dip"
+        android:text="Value : 12"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:textSize="15dip"
+        android:text="*The recommended value is 12;\nIt needs at least a value of  5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:text="Explaination"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:textSize="15dip"
+        android:text="The larger the value, the harder to detect the shake motion; the smaller the value, the easier to detect the shake motion."/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/goAction"
+        android:layout_marginTop="50dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Action"/>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CurrentLocation</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCL-YlihqNntU0-Te5P7naUsQuiU8j7Zr8</string>
+</resources>

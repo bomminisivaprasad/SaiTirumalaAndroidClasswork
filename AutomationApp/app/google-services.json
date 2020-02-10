@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "363142363064",
+    "firebase_url": "https://automation-6127a.firebaseio.com",
+    "project_id": "automation-6127a",
+    "storage_bucket": "automation-6127a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363142363064:android:683a90692cf10c5f",
+        "android_client_info": {
+          "package_name": "com.example.automationapp.automationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363142363064-oj05i4vbiid3een2hin63u0b6hnm8u47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgmiP4GnT2E5TTb7CS36vkofvKfz9KTzo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363142363064-oj05i4vbiid3een2hin63u0b6hnm8u47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
