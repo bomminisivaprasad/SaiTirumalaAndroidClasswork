@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/p3">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/lm5"
+        app:cardElevation="@dimen/ce3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/lm3"
+                android:text="@string/question"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/tS18"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/lm3"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/tS18" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/lm3">
+
+                <TextView
+                    android:id="@+id/txtA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/A"
+                    android:textSize="@dimen/tS16" />
+
+                <TextView
+                    android:id="@+id/txtDisplay2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="@dimen/tS16" />
+
+                <TextView
+                    android:id="@+id/txtB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtA"
+                    android:text="@string/B"
+                    android:textSize="@dimen/tS16" />
+
+                <TextView
+                    android:id="@+id/txtDisplay3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtDisplay2"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="@dimen/tS16" />
+
+                <TextView
+                    android:id="@+id/txtC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtB"
+                    android:text="@string/C"
+                    android:textSize="@dimen/tS16" />
+
+                <TextView
+                    android:id="@+id/txtDisplay4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtDisplay3"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="@dimen/tS16" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtC"
+                    android:text="@string/D"
+                    android:textSize="@dimen/tS16" />
+
+                <TextView
+                    android:id="@+id/txtDisplay5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtDisplay4"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="@dimen/tS16" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/lm3"
+                android:text="@string/answer"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/tS20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDisplay6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/lm3"
+                android:textSize="@dimen/tS18" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/lm3"
+                android:text="@string/explain"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/tS20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDisplay7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/lm3"
+                android:textSize="@dimen/tS16" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

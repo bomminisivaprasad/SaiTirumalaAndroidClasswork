@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string-array name="qualifications">
+        <item>B.Tech</item>
+        <item>M.Tech</item>
+        <item>Phd</item>
+        <item>MA</item>
+        <item>MBA</item>
+        <item>MCA</item>
+    </string-array>
+</resources>

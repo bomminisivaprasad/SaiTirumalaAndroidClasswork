@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.NewsDetailsActivity"
+    tools:showIn="@layout/activity_news_details">
+
+    <LinearLayout
+        android:layout_margin="@dimen/fifteen_dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/news_article_title"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/news_article_title"
+            android:textSize="@dimen/def_text_size"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:id="@+id/news_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_of_the_article"
+            android:textSize="@dimen/def_text_size"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="@dimen/ten_dp"
+            />
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/alarmbuttons"
+                android:textSize="@dimen/text_size_button"
+                android:drawableStart="@drawable/ic_volume_up_black_24dp"
+                android:text="@string/speak"
+                android:onClick="speakText"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_button"
+                style="@style/alarmbuttons"
+                android:drawableStart="@drawable/ic_volume_off_black_24dp"
+                android:text="@string/stop"
+                android:onClick="stopSpeaking"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/forty_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/click_here_to_read_more"
+            android:textColor="@color/blue_color"
+            android:gravity="end|center"
+            android:onClick="loadWebView"
+            android:textSize="@dimen/def_text_size"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

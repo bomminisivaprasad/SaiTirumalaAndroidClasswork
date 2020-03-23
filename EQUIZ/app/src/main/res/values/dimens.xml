@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="logo_w_h">100dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="m40">40dp</dimen>
+    <dimen name="p8">8dp</dimen>
+    <dimen name="tS20">20sp</dimen>
+    <dimen name="lm4">4dp</dimen>
+    <dimen name="el5">5dp</dimen>
+    <dimen name="lh200">200dp</dimen>
+    <dimen name="lw30">30dp</dimen>
+    <dimen name="lh30">30dp</dimen>
+    <dimen name="lmb20">20dp</dimen>
+    <dimen name="lmb30">30dp</dimen>
+    <dimen name="lmb10">10dp</dimen>
+    <dimen name="lmt20">20dip</dimen>
+    <dimen name="tS15">15dp</dimen>
+    <dimen name="tS25">25sp</dimen>
+    <dimen name="lm10">10dp</dimen>
+    <dimen name="pb10">10dp</dimen>
+    <dimen name="pt10">10dp</dimen>
+    <dimen name="tS18">18sp</dimen>
+    <dimen name="lh1">1dp</dimen>
+    <dimen name="p10">10dp</dimen>
+    <dimen name="tS17">17sp</dimen>
+    <dimen name="lmt30">30dp</dimen>
+    <dimen name="tS14">14dp</dimen>
+    <dimen name="lmt10">10dp</dimen>
+    <dimen name="lm2">2dp</dimen>
+    <dimen name="lm5">5dp</dimen>
+    <dimen name="ce3">3dp</dimen>
+    <dimen name="lh50">50dp</dimen>
+    <dimen name="lw0">0dp</dimen>
+    <dimen name="tS27">27sp</dimen>
+    <dimen name="lh40">40dp</dimen>
+    <dimen name="tS30">30sp</dimen>
+    <dimen name="lw160">160dp</dimen>
+    <dimen name="lh100">100dp</dimen>
+    <dimen name="p5">5dp</dimen>
+    <dimen name="lmb5">5dp</dimen>
+    <dimen name="lw100">100dp</dimen>
+    <dimen name="lh60">60dp</dimen>
+    <dimen name="lmt16">16dp</dimen>
+    <dimen name="p3">3dp</dimen>
+    <dimen name="lm3">3dp</dimen>
+    <dimen name="lh70">70dp</dimen>
+    <dimen name="cCR">3dp</dimen>
+    <dimen name="lw200">200dp</dimen>
+    <dimen name="tS16">16sp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "930360989705",
+    "firebase_url": "https://farmerskart-bebe2.firebaseio.com",
+    "project_id": "farmerskart-bebe2",
+    "storage_bucket": "farmerskart-bebe2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930360989705:android:21096bfe51040b30a1c0d8",
+        "android_client_info": {
+          "package_name": "com.example.farmerskart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930360989705-kiqngv5v75h20ar3h8uo0cvd8mpm5kc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.farmerskart",
+            "certificate_hash": "4e25857a77f58e2fef897b8fc4e2c80ff109dfc7"
+          }
+        },
+        {
+          "client_id": "930360989705-48qb1gbkkia2e0m2v3vp385u1hduvs9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7svHAJxPUe018pZ0K5H7-AFba6m_-lGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930360989705-48qb1gbkkia2e0m2v3vp385u1hduvs9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

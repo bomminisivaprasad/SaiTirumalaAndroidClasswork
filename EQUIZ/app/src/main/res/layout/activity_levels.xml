@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".Levels">
+
+
+
+    <com.github.rubensousa.raiflatbutton.RaiflatButton
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basic Level"
+        android:layout_marginTop="10dp"
+        android:onClick="basic"
+        android:id="@+id/basic"
+        android:background="@color/colorAccent"/>
+
+    <com.github.rubensousa.raiflatbutton.RaiflatButton
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advanced Level"
+        android:id="@+id/advanced"
+        android:layout_marginTop="10dp"
+        android:onClick="basic"
+        android:background="#673AB7"
+         />
+
+</LinearLayout>

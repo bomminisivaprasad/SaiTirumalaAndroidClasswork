@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EFEFF1"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lh70"
+        android:layout_margin="@dimen/lm5"
+        android:orientation="horizontal"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="#FFFFFF"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtType"
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/lm5"
+                android:padding="@dimen/p5"
+                android:textStyle="italic"
+                android:fontFamily="serif"
+                android:textColor="#04167A"
+                android:text="@string/Topic"
+                android:textSize="@dimen/tS18" />
+
+            <Button
+                android:id="@+id/btnAttempt"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cornerborder"
+                android:backgroundTint="@color/lightblue"
+                android:drawableEnd="@drawable/ic_edit_black_24dp"
+                android:drawableRight="@drawable/ic_edit_black_24dp"
+                android:padding="@dimen/p10"
+                android:layout_gravity="end"
+                android:text="@string/Attempquiz"
+                android:fontFamily="serif"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <!--  <View
+          android:layout_width="match_parent"
+          android:layout_weight="0.01"
+          android:layout_height="1dp"
+          android:background="#9f026e"/>
+-->
+
+</LinearLayout>

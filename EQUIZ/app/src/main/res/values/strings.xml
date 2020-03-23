@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">QUIZ</string>
+    <string-array name="Basictopics">
+        <item>Language Fundamentals</item>
+        <item>Operators And Assignments</item>
+        <item>Declarations and Access Control</item>
+        <item>Assertions</item>
+        <item>Exceptions</item>
+        <item>Inner Classes</item>
+
+    </string-array>
+
+    <string-array name="AdvancedLevel">
+        <item>Garbage Collections</item>
+        <item>Java.lang Class</item>
+        <item>Flow Control</item>
+        <item>Objects and Collections</item>
+        <item>Threads</item>
+        <item>Overall Questions</item>
+    </string-array>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="rules">1)Double clicking the answer will not be selected\n2)No negative evaluation\n3)For every right answer,1 mark will be awarded\n4)Time alloted-3 minutes\n5)After completion of time your result will be displayed\n6)After completion of questions , your result will be displayed\n7)You can view answers with explanation after completion\n8)When you quit the exam in the middle ,your score is displayed until then.\n
+        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<b>All The Best</b>
+    </string>
+
+    <string name="dashboard">My Score Board</string>
+    <string name="logout">Logout</string>
+    <string name="action_profile">Profile</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="button">Button</string>
+    <string name="QLS">Question is Loading</string>
+    <string name="Mark">Marks</string>
+    <string name="LanFun">Language Fundamentals</string>
+    <string name="sX">X</string>
+    <string name="OandA">Operators and Assignments</string>
+    <string name="DAC">Declarations and Access Control</string>
+    <string name="Assertion">Assertions</string>
+    <string name="Exception">Exceptions</string>
+    <string name="InnerClass">Inner Classes</string>
+    <string name="GarbageCollection">Garbage Collections</string>
+    <string name="JavaLang">Java.lang Class</string>
+    <string name="flowcontrol">Flow Control</string>
+    <string name="OandC">Objects And Collections</string>
+    <string name="Thread">Threads</string>
+    <string name="Overall">Overall Questions</string>
+    <string name="result">RESULT</string>
+    <string name="TotalQues">Total Questions</string>
+    <string name="t0">0</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Wrong</string>
+    <string name="viewexplain">VIEW EXPLANATION</string>
+    <string name="question">Question</string>
+    <string name="A">A)</string>
+    <string name="B">B)</string>
+    <string name="C">C)</string>
+    <string name="D">D)</string>
+    <string name="answer">Answer</string>
+    <string name="explain">Explanation</string>
+    <string name="Attempquiz">Start Exam</string>
+    <string name="Topic">Topic</string>
+    <string name="SImg">Image</string>
+    <string name="emailtoast">Enter email address!</string>
+    <string name="passtoast">Enter password!</string>
+    <string name="btemtoast">Enter your registered email id</string>
+    <string name="rpstoast">We have sent you instructions to reset your password!</string>
+    <string name="rpftoast">Failed to send reset email!</string>
+    <string name="cancelErr">Errrorrr</string>
+    <string name="suptoast">Password too short, enter minimum 6 characters!</string>
+    <string name="eng">Features of Java</string>
+    <string name="si1">https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2018/01/Features-of-java-01-1.jpg</string>
+    <string name="si2">https://cdn-images-1.medium.com/max/1600/1*uHkhqBoxDWJPLs3lXrYghA.jpeg</string>
+    <string name="si3">data:image/png;base64,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</string>
+    <string name="si4">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlKCgQHdmnDiGIZzY6GyaakxrQz7dN_zvgqneypjISDg3sg1MLqQ</string>
+    <string name="si5">https://www.java-made-easy.com/images/hello-world.jpg</string>
+</resources>

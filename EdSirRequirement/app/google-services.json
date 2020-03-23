@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "41333789264",
+    "firebase_url": "https://edsirrequirement.firebaseio.com",
+    "project_id": "edsirrequirement",
+    "storage_bucket": "edsirrequirement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41333789264:android:01efe1c9fd583187d9f755",
+        "android_client_info": {
+          "package_name": "com.example.edsirrequirement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41333789264-c4p6mpq3ng5phck9bjhu9eo1n13ojaan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edsirrequirement",
+            "certificate_hash": "4e25857a77f58e2fef897b8fc4e2c80ff109dfc7"
+          }
+        },
+        {
+          "client_id": "41333789264-s66eara5n53kjalkf8ulj1qmra4ieopq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbs5Qg8crprpCN7zZn1oV7pzjuC8iAT54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41333789264-s66eara5n53kjalkf8ulj1qmra4ieopq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

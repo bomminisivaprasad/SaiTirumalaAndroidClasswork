@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BuyerNavigationDrawerActivity">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/districts"
+        android:id="@+id/search_district"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/category"
+        android:id="@+id/search_category"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get"
+        android:onClick="getData"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler"
+        />
+
+</LinearLayout>

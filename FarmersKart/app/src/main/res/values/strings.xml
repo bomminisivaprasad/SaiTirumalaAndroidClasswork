@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FarmersWorld</string>
+    <string-array name="districts">
+        <item>Select District</item>
+        <item>Anantapur</item>
+        <item>Kurnool</item>
+        <item>Kadapa</item>
+        <item>Chittor</item>
+    </string-array>
+    <string-array name="type">
+        <item>Select User Type</item>
+        <item>Seller</item>
+        <item>Buyer</item>
+    </string-array>
+    <string-array name="category">
+        <item>Select Type of Product</item>
+        <item>Animal</item>
+        <item>Fruits</item>
+        <item>Vigitables</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Activities.MainActivity">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/buttons_margin"
+        android:layout_height="wrap_content"
+         />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:onClick="goToSecondActivityForPhoneNumberSignIn"
+        android:drawableStart="@drawable/ic_phone_android_black_24dp"
+        android:layout_margin="@dimen/buttons_margin"
+        android:text="@string/login_with_phone_number"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ten_dp"
+        style="@style/alarmbuttons"
+        android:onClick="loadAboutApp"
+        android:drawableStart="@drawable/ic_info_black_24dp"
+        android:text="@string/ab"
+        />
+
+</LinearLayout>

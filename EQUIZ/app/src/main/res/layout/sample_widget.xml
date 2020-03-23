@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetLinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueshade"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/appwidget_textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blackshade"
+        android:contentDescription="@string/appwidget_text"
+        android:padding="@dimen/p10"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/lightwhite"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lm5"
+        android:background="@color/blueshade"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

@@ -16,14 +16,6 @@
         android:hint="Enter Marks"
         android:inputType="number"
         />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Save"
-        android:id="@+id/button"
-        android:layout_marginBottom="150dp"
-        />
-
 
 
 </LinearLayout>

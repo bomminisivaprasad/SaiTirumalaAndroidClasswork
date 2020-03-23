@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -18,12 +17,16 @@ class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     int bundleNumber,numberofBooklets;
     IntentIntegrator myqrScan;
     String myMarks;
-    public MyAdapter(BookletsScanningActivity bookletsScanningActivity, int bundleNumber, int numberofBooklets, IntentIntegrator qrScan,String marks) {
+    callbackData callbackData;
+    String rollno;
+    public MyAdapter(BookletsScanningActivity bookletsScanningActivity, int bundleNumber, int numberofBooklets, IntentIntegrator qrScan, String marks, BookletsScanningActivity bookletsScanningActivity1, String contents) {
         ct = bookletsScanningActivity;
         this.bundleNumber = bundleNumber;
         this.numberofBooklets = numberofBooklets;
         myqrScan = qrScan;
         myMarks = marks;
+        callbackData = bookletsScanningActivity1;
+        rollno = contents;
     }
 
     @NonNull
@@ -33,29 +36,24 @@ class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         return new MyViewHolder(v);
     }
 
-    @Override
-    public void onBindViewHolder(@NonNull MyAdapter.MyViewHolder holder, int position) {
-        if(position<=8){
-            holder.tv_sno.setText("0" + (position + 1));
-        }else {
-            holder.tv_sno.setText("" + (position + 1));
-        }
-        holder.tv_marks.setText(myMarks);
-       /* position = 0;
-        for (int i = 0;i<=numberofBooklets;i++){
-                if(position==i){
-                    holder.itemView.setVisibility(View.VISIBLE);
-                }else {
-                    holder.itemView.setVisibility(View.GONE);
-                }
-                position++;
-        }*/
+    public interface callbackData{
+        void getData(int position, String rollno, int bundleNumber, int numberofBooklets, String rollnumberMarks);
 
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull MyAdapter.MyViewHolder holder, final int position) {
+
+        holder.tv_sno.setText(""+position);
+        holder.tv_marks.setText(""+myMarks);
        holder.scanButton.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
                //qrScan.initiateScan();
                myqrScan.initiateScan();
+
+               callbackData.getData(position,rollno,bundleNumber,numberofBooklets,myMarks);
+
            }
        });
 

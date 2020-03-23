@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/widget_host"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/widget_margin">
+
+    <ImageView
+        android:id="@+id/news_image_widget"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hundred_dp"
+        android:src="@drawable/breaking_news"
+        android:contentDescription="@string/an_image" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/widget_news_title"
+        tools:text="PAVAN KUMAR"
+        android:textSize="@dimen/def_text_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_link"
+        android:textSize="@dimen/small_text"
+        android:autoLink="web"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+</LinearLayout>

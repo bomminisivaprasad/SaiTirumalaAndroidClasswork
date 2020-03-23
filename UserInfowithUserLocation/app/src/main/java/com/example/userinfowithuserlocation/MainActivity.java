@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -38,6 +39,7 @@ import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -300,21 +302,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (resultCode == RESULT_OK) {
             switch (requestCode){
                 case REQUEST_IMAGE_CAPTURE:
-                    Bundle extras = data.getExtras();
-                    Bitmap imageBitmap = (Bitmap) extras.get("data");
-                    String directoryPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/SampleImages";
-                    FileOutputStream fos = null;
-                    File file = null;
-                    try {
-                         file = new File(directoryPath, "mastan" + ".jpg");
-                        fos = new FileOutputStream(file);
-                        imageBitmap.compress(Bitmap.CompressFormat.JPEG, 500, fos);
-                        fos.flush();
-                        fos.close();
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    imageView.setImageURI(Uri.parse(file.getAbsolutePath()));
+                    Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
+                    Uri u = getImageUri(this, thumbnail);
+                    imageView.setImageURI(u);
+                    filepath = u;
 
                     break;
                 case REQUEST_IMAGE_GALLERY:
@@ -326,6 +317,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
 
         }
+    }
+
+    public Uri getImageUri(Context inContext, Bitmap inImage) {
+        ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+        inImage.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
+        String path = MediaStore.Images.Media.insertImage(inContext.getContentResolver(), inImage, "Title", null);
+        return Uri.parse(path);
     }
 
 }

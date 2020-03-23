@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/m40"
+            android:padding="@dimen/p8">
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="0"
+                android:textSize="@dimen/tS20" />
+
+            <TextView
+                android:id="@+id/txtTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txtQue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lm4"
+            android:text="@string/QLS"
+            android:textSize="@dimen/tS20" />
+
+        <Button
+            android:id="@+id/choice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lm4"
+            android:background="@drawable/border2"
+            android:backgroundTint="@color/lightblue"
+            android:elevation="@dimen/el5"
+            android:padding="@dimen/p8"
+            android:text="@string/button"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/choice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lm4"
+            android:background="@drawable/border2"
+            android:backgroundTint="@color/lightblue"
+            android:elevation="@dimen/el5"
+            android:padding="@dimen/p8"
+            android:text="@string/button"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/choice3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lm4"
+            android:background="@drawable/border2"
+            android:backgroundTint="@color/lightblue"
+            android:elevation="@dimen/el5"
+            android:padding="@dimen/p8"
+            android:text="@string/button"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/choice4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lm4"
+            android:background="@drawable/border2"
+            android:backgroundTint="@color/lightblue"
+            android:elevation="@dimen/el5"
+            android:padding="@dimen/p8"
+            android:text="@string/button"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/myJavaProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
